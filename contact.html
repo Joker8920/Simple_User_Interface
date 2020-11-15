@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Syed Fasih Ahmed - EP 1850114</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- importing google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+    body{
+        font-family: Montserrat;
+    }
+
+    .nav-links{
+        color: #3d1472 !important;
+    }
+
+    .contact-hero{
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .about-image{
+      background-image: url('images/laptop-about.jpg'); 
+      margin-top: 60px;
+      border-radius: 8px;
+      box-shadow: black;
+
+    }
+
+    .services-heading{
+        font-size: 23px;
+    }
+
+    .footer{
+        padding: 13px;
+        margin-top: 60px;
+        background-color: #1b1b1b;
+        color: white;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    /* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3d1472;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: ;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+</style>
+
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+          Syed Fasih Ahmed
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav nav-links" style="margin-left: auto;" >
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+
+</header>
+
+<body>
+
+<!--Hero section-->
+<div class="contact-hero" style="background-image: url('images/laptop-hero-overlay.jpg'); " >
+
+    <h2 style="font-size: 54px; font-weight: 800; text-transform: uppercase;">contact me</h2>
+    <p style="margin-left:180px; margin-right: 180px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue ex, rhoncus at aliquam vel, faucibus ac felis. Aliquam id finibus augue.</p>
+
+</div>
+
+<div class="container" style="padding-top: 60px;">
+
+    <div style="text-align:center">
+        <h2 style="font-weight: 800;">Request a Quote</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="images/laptop-hero-overlay.jpg" style="width:100%; border-radius: 8px;">
+        </div>
+        <div class="column">
+          <form action="">
+            <label for="name">Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="email">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+            
+            
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Your message.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+
+</div>
+
+</body>
+
+</html>
+
+<footer class="footer">
+    <h3 class="footer-text"> &copy; Copyright Syed Fasih Ahmed | EP-1850114 </h3>
+</footer>
